@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipython = "*"
+python-dateutil = "==2.8.2"
+asgiref = "==3.5.2"
+gunicorn = "==20.1.0"
+aiohttp = ">=3.8.3"
+coloredlogs = ">=15.0.1"
+PyYAML = "==6.0"
+PyJWT = "==2.6.0"
+cryptography = "==39.0.2"
+fhirpy = "==1.3.0"
+aidboxpy = "==1.3.0"
+aidbox-python-sdk = "==0.1.3"
+fhirpathpy = "==0.1.2"
+jupyterlab = "*"
+ipykernel = "*"
+hl7 = "0.4.5"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
